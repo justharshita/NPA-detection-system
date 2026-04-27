@@ -57,3 +57,13 @@ The project follows a **Bronze → Silver → Gold** layered ETL approach:
 ---
 
 ## 🔹 Project Structure
+
+NPA-Detection-System/
+│
+├── app/                # Dashboard application
+├── data/               # Bronze, Silver, Gold datasets
+├── models/             # Saved ML models
+├── src/                # Pipeline and configurations
+├── run_pipeline.py     # Main pipeline script
+├── requirements.txt
+└── README.md
